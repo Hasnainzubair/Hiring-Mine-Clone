@@ -7,54 +7,46 @@
 /* navbar */
 .navbar{
     height:80px;
-    width:100vw;
-    background-color:white;
-    display:flex;
+    width:100%;
+    background-color: #ffffff;
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .nav-logo{
     background-image: url(./Hiring\ Mine\ Logo-453a72d3.png);
     background-size: cover;
-    height:36px;
+    height: 36px;
     width:190px;
+    margin-left:20px;
 }
-ul{
-    display: flex;
-    list-style:none;
-    gap:20px;
+.nav-logo,Button:hover{
+    cursor: grabbing;
 }
-.nav-links{
-    display: flex;
-    margin-right:35px;
-}
-.nav-a{
+#anavbar{
     text-decoration: none;
-    color: black;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
+    margin:8px;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
-.nav-aa{
+#aanavbar{
     text-decoration: none;
-    color: #6851FF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
+    color:#6851FF;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
 }
-.nav-mode{
-    scale: 2;
-    margin-right:20px;
+.darkmode{
+    scale: 2.1;
+    margin-right:50px;
 }
 /* section1 */
 .section1{
     height:100vh;
     width: 100vw;
-    background-color: #6851FF;
+    margin-top:10px;
+    background-color: #ffffff;
     display: flex;
     justify-content:center;
 }
@@ -62,17 +54,17 @@ ul{
     height: 100vh;
     width: 70vw;
     padding:0px 16px;
-    background-color:white;
+    background-color:#ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 #section1h1{
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 800;
+    font-size: 75px;
+    font-weight:800;
     text-align: center;
-    letter-spacing: -.02em-1.6px;
+    letter-spacing :-0.06em;
     background: linear-gradient(106.43deg, #522fd4, #6bdcff 95.12%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
@@ -91,19 +83,145 @@ ul{
     width:595px;
     margin-top:20px;
     display: flex;
+    flex-direction: column;
 
 }
 #ib1{
     font: inherit;
     letter-spacing: inherit;
     color: currentcolor;
-    border: 1px solid;
+    border: 1px solid gainsboro;
     display: block;
     min-width: 0px;
     width: 100%;
     padding: 8.5px 0px 8.5px 14px
 }
-#button1{
-align-items: center;
+.button1{
+    display: flex;
+    justify-content: center;
 }
-    
+#button1{
+    align-items: center;
+    margin-top: 30px;
+    height:48px;
+    width:140px;
+    border-radius:40px;
+    background-color:rgb(104, 81, 255);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    font-weight: bolder;
+    border-color: none;
+    border: none;
+    font-size:16px;
+}
+h6{
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: -.05em;
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text
+}
+ul{
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    display: flex;
+    justify-content: center;
+    gap:16px;
+    flex-wrap:wrap;
+}
+.buttons{
+    width:auto;
+    font-weight: 800;
+    color:#6851FF;
+    border: 1px solid #280dd8;
+    border-radius: 5px;
+    font-size:13px;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+/* section2 */
+.section2{
+    height:100vh;
+    width:100vw;
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section2h1{
+    font-size: 55px;
+    font-weight:800;
+    text-align: center;
+    letter-spacing :-0.07em;
+    background: linear-gradient(106.43deg, #522fd4, #6bdcff 95.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+.section2box1{
+    margin-top: 10px;
+    height: 450px;
+    width: 1000px;
+    border-radius:10px;
+    background-color:white;
+    border-color: #e5e7eb;
+    border-style: solid;
+    overflow: hidden;
+    box-shadow: -1px -1px 24px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 24px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 24px -12px rgba(0,0,0,0.75);
+    position: relative;
+}
+.ai-asistant{
+    height:50px;
+    width:73vw;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+}
+#s2p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+    font-weight: 600;
+
+}
+.hello{
+    height:100px;
+    width:52vw;
+    background-color:#E9D5ff;
+    border-radius:10px;
+    margin-top:30px;
+    margin-left:25px;
+    padding-top:25px;
+    padding-left: 30px;
+    line-height: 25px;
+}
+#s2p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:500;
+}
+.s2buttons{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+#s2b1{
+    padding:7px;
+    border-radius:15px;
+    border:1px solid gainsboro;
+    margin-top:160px;
+    background-color: transparent;
+}
+.s2-image{
+    background-image: url(./imgi_3_art\ work-df4f7a46.png);
+    height:50vh;
+    width:100vw;
+}
