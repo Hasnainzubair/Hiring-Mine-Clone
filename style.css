@@ -46,7 +46,7 @@
     height:100vh;
     width: 100vw;
     margin-top:10px;
-    background-color: #ffffff;
+    background: linear-gradient(#ffffff, #EEEBFF);
     display: flex;
     justify-content:center;
 }
@@ -54,7 +54,7 @@
     height: 100vh;
     width: 70vw;
     padding:0px 16px;
-    background-color:#ffffff;
+    background: linear-gradient(#ffffff, #EEEBFF);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,12 +84,12 @@
     margin-top:20px;
     display: flex;
     flex-direction: column;
-
 }
 #ib1{
     font: inherit;
     letter-spacing: inherit;
     color: currentcolor;
+    background-color: transparent;
     border: 1px solid gainsboro;
     display: block;
     min-width: 0px;
@@ -148,16 +148,17 @@ ul{
 }
 /* section2 */
 .section2{
-    height:100vh;
+    height:150vh;
     width:100vw;
-    margin-top:20px;
     display: flex;
     flex-direction: column;
+    background-color: #EEEBFF;
     align-items: center;
 }
 #section2h1{
     font-size: 55px;
     font-weight:800;
+    margin-top: 30px;
     text-align: center;
     letter-spacing :-0.07em;
     background: linear-gradient(106.43deg, #522fd4, #6bdcff 95.12%);
@@ -169,19 +170,18 @@ ul{
     height: 450px;
     width: 1000px;
     border-radius:10px;
-    background-color:white;
+    background-color:transparent;
     border-color: #e5e7eb;
-    border-style: solid;
     overflow: hidden;
     box-shadow: -1px -1px 24px -12px rgba(0,0,0,0.75);
     -webkit-box-shadow: -1px -1px 24px -12px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px -1px 24px -12px rgba(0,0,0,0.75);
-    position: relative;
+    /* position: absolute; */
 }
 .ai-asistant{
     height:50px;
     width:73vw;
-    background-color:white;
+    background-color:transparent;
     display: flex;
     align-items: center;
     padding-left:10px;
@@ -217,11 +217,29 @@ ul{
     padding:7px;
     border-radius:15px;
     border:1px solid gainsboro;
-    margin-top:160px;
+    margin-top:130px;
     background-color: transparent;
 }
 .s2-image{
     background-image: url(./imgi_3_art\ work-df4f7a46.png);
     height:50vh;
     width:100vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ib2{
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 1px solid gainsboro;
+    background-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 90%;
+    padding: 8.5px 0px 8.5px 14px;
+    margin:50px 0px 0px 20px;
+}
+.sender-icon{
+    scale: 2;
 }
